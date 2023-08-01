@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    text-transform:capitalize;
+    font-family:Georgia;
+    box-sizing:border-box;
+}
+h1{
+    font-size:2.5rem;
+    margin:10px;
+    padding:20px;
+}
+h1 > a{
+    color:black;
+}
+.facebook{
+    background-color:blue;
+    color:white;
+    font-weight:bold;
+    font-style:itallic;
+    width:300px;
+    height:45px;
+    border:blue;
+    border-radius:8px;
+}
+.mid{
+    padding:20px;
+}
+.rt,.lt{
+    background-color:rgb(204, 204, 192);
+    width:115px;
+    height:0.8px;
+}
+.in{
+    width:300px;
+    height:45px;
+    margin:2px;
+    background-color:whitesmoke;
+    border:whitesmoke;
+    border-radius:10px;
+    padding:5px 5px 5px 10px;
+}
+
+.logp{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:500px;
+}
+.logq{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    row-gap:0;
+}
+.loga{
+    width:300px;
+    display:flex;
+    justify-content:flex-end;
+    margin:15px;
+}
+.logb{
+    width:285px;
+    height:35px;
+    background-color:rgb(92, 92, 255);
+    color:white;
+    border:rgb(92, 92, 255);
+    border-radius:8px;
+    font-style:italic;
+    font-weight:bold;
+
+}
+.logc{
+    margin:50px;
+    font-size:15px;
+}
+.logr{
+    padding:0;
+    margin:80px;
+    
+}
+.logar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+:link{
+    text-decoration:none;
+    
+}
+a{
+    color:blue;
+}
+.insf{
+    color:red;
+}
+img{
+    width:15px;
+    height:15px;
+    padding:0;
+    margin:0;
+}
